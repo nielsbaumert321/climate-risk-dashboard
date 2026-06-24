@@ -1,0 +1,24 @@
+# EM-DAT raw data — redistribution prohibited by EM-DAT license
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Claude session files
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
