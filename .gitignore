@@ -1,6 +1,7 @@
 # EM-DAT raw data — redistribution prohibited by EM-DAT license
 *.xlsx
 *.xls
+emdat_data.csv
 
 # Python
 __pycache__/

@@ -5,10 +5,10 @@ import plotly.graph_objects as go
 import wbgapi as wb
 from dash import Dash, dcc, html, Input, Output, callback
 
-DATA_FILE = "public_emdat_custom_request_2026-06-22_All_countries.xlsx"
+DATA_FILE = "emdat_data.csv"
 
 # ── Load EM-DAT ───────────────────────────────────────────────────────────────
-_raw = pd.read_excel(DATA_FILE)
+_raw = pd.read_csv(DATA_FILE)
 
 # Restrict to the five tracked hazard types and the 2000-2025 window so that
 # every view (map, bars, normalizers) counts the same universe of events.
